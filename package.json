@@ -1,0 +1,17 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "whitelist-bot/\r ├─ node_modules/                 # npmパッケージ群\r ├─ data/\r │   └─ database.sqlite           # SQLiteデータベースファイル（申請履歴用）\r ├─ commands/\r │   └─ whitelist.js              # /whitelist コマンド実装（申請受付＆DB保存＆DM送信）\r ├─ events/\r │   ├─ interactionCreate.js      # ボタンやスラッシュコマンドの処理\r │   └─ ready.js                  # Bot起動時処理（コマンド登録など）\r ├─ utils/\r │   ├─ database.js               # SQLiteの接続・クエリ実行ユーティリティ\r │   └─ logger.js                 # ログ出力・エラーハンドリング用ユーティリティ\r ├─ bot.js                       # メイン実行ファイル（クライアント生成・イベント登録）\r ├─ package.json\r ├─ package-lock.json\r └─ .env                         # 環境変数（BOT_TOKEN, OWNER_IDなど）",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.1",
+    "sqlite3": "^5.1.7"
+  }
+}
