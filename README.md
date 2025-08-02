@@ -19,7 +19,7 @@ SQLiteを使った軽量な構成で、自宅サーバーでも運用可能で�
 1. このリポジトリをクローン
 ```bash
 git clone https://github.com/KANATAJAPAN/minecraft-discord-whitelist-bot.git
-cd whitelist-bot
+cd minecraft-discord-whitelist-bot
 
 2. 必要なモジュールをインストール
 
@@ -51,3 +51,4 @@ MIT License
 ❗ 注意事項
 スパム対策のため、DM送信が失敗する場合があります。
 招待する際は、Botに DM送信権限 と アプリコマンドの権限 を忘れずに付与してください。
+
