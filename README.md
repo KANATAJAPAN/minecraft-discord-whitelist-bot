@@ -18,7 +18,7 @@ SQLiteを使った軽量な構成で、自宅サーバーでも運用可能で�
 
 1. このリポジトリをクローン
 ```bash
-git clone https://github.com/yourusername/whitelist-bot.git
+git clone https://github.com/KANATAJAPAN/minecraft-discord-whitelist-bot.git
 cd whitelist-bot
 
 2. 必要なモジュールをインストール
